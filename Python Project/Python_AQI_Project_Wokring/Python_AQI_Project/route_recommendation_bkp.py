@@ -7,7 +7,7 @@
 # from forecast import forecast_next_7_days
 
 # # 🔑 Replace with your real OpenRouteService API key
-# ORS_API_KEY = "5b3ce3597851110001cf6248c7de9e65bb2c4c15941aa7198568b6ec"
+# ORS_API_KEY = "your_api_key"
 # ors_client = openrouteservice.Client(key=ORS_API_KEY)
 
 # def suggest_cleanest_nearby_location(user_lat, user_lon, trained_models, original_dfs):
@@ -97,7 +97,7 @@ from feature_engineering import add_features
 from forecast import forecast_next_7_days
 
 # 🔑 Replace with your real OpenRouteService API key
-ORS_API_KEY = "5b3ce3597851110001cf6248c7de9e65bb2c4c15941aa7198568b6ec"
+ORS_API_KEY = "your_api_key"
 ors_client = openrouteservice.Client(key=ORS_API_KEY)
 
 # ✅ Ensure 'maps' folder exists
@@ -233,7 +233,7 @@ from feature_engineering import add_features
 from forecast import forecast_next_7_days
 
 # 🔑 Replace with your actual OpenRouteService API key
-ORS_API_KEY = "5b3ce3597851110001cf6248c7de9e65bb2c4c15941aa7198568b6ec"
+ORS_API_KEY = "your_api_key_here"
 ors_client = openrouteservice.Client(key=ORS_API_KEY)
 
 output_path = "outputs/recommended_cleanest_route.html"
