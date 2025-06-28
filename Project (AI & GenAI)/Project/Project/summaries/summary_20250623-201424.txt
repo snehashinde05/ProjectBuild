@@ -1,0 +1,30 @@
+ 1. Here are the results that are within the normal range:
+   - Blood Glucose: The level of sugar in your blood is normal.
+   - Platelet Count: The number of platelets (clotting cells) in your blood is within the normal range.
+   - Iron: Your serum iron, total iron-binding capacity (TIBC), and % Transferrin saturation are all normal.
+   - Serum Amylase: This is a digestive enzyme level, and it's within the normal range.
+   - Total Cholesterol: Your cholesterol levels are acceptable.
+   - Triglycerides: The amount of fat in your blood is normal.
+   - Apolipo A1 & Apolipo B: These are proteins that help with cholesterol transport, and their levels seem fine.
+   - Apo B/Apo A1 Ratio: This ratio appears to be within the acceptable range.
+   - HS-CRP (High Sensitivity C-Reactive Protein): The level of this protein, which can indicate inflammation, is normal.
+   - Creatinine: This kidney function test result is normal.
+   - Urea & Urine Electrolytes: These values suggest that your kidneys are functioning normally.
+   - Phosphorus: Your phosphorus levels appear to be within the normal range.
+   - Vitamin B12 and Vitamin D3: Both vitamins seem to be at acceptable levels.
+   - Urinalysis: This test showed no abnormalities, such as blood cells, crystals, or signs of infection in your urine.
+
+2. The following results are abnormal and may indicate some health concerns:
+   - Blood Urea Nitrogen (BUN): This suggests that your kidneys might not be functioning optimally.
+   - Sodium: Your sodium levels may be too low, which could potentially affect your overall health.
+   - Potassium: Your potassium level is higher than normal, and this can sometimes lead to complications.
+   - Calcium: Your calcium levels seem to be low, which might cause problems with bone health.
+   - Total Bilirubin: This test suggests that your liver may not be working properly, and further evaluation may be needed.
+   - Alkaline Phosphatase (ALP): An elevated ALP level can indicate a problem with your liver or bones.
+   - Aspartate Transaminase (AST) & Alanine Transaminase (ALT): These enzyme levels suggest potential liver damage, although further investigation may be necessary to confirm this.
+   - Gamma-Glutamyl Transferase (GGT): This test result is higher than normal and could indicate liver or bile duct problems.
+   - Thyroid Tests: Your T3, T4, and TSH levels show some irregularities, which may suggest an issue with your thyroid gland.
+
+3. Based on the abnormal results mentioned above, there are potential health risks associated with kidney, liver, thyroid, electrolyte balance, and bone health concerns. It's essential to consult a healthcare professional for further evaluation and guidance.
+
+4. We strongly encourage you to seek medical advice from a qualified doctor to discuss the results and any potential health risks or concerns that have been identified in this report. Your health is of utmost importance, and we want you to stay well-informed about your wellbeing.

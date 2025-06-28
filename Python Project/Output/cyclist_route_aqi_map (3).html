@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_900559f0ca1655f12bc39dfb17a4b31f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_900559f0ca1655f12bc39dfb17a4b31f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_900559f0ca1655f12bc39dfb17a4b31f = L.map(
+                "map_900559f0ca1655f12bc39dfb17a4b31f",
+                {
+                    center: [19.076, 72.8777],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6590fefcbb5cead6654b6e1bb566f14d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6590fefcbb5cead6654b6e1bb566f14d.addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+            var circle_marker_6d0edaa7c2c444f9b02369f6f94fb7a4 = L.circleMarker(
+                [19.0688, 72.8703],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9900", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_a9a2b9102695cae0b5d288bdc57aaff3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d35274a7a26e737e4c8d1f5675c2be07 = $(`<div id="html_d35274a7a26e737e4c8d1f5675c2be07" style="width: 100.0%; height: 100.0%;">BKC: AQI 221.52</div>`)[0];
+                popup_a9a2b9102695cae0b5d288bdc57aaff3.setContent(html_d35274a7a26e737e4c8d1f5675c2be07);
+            
+        
+
+        circle_marker_6d0edaa7c2c444f9b02369f6f94fb7a4.bindPopup(popup_a9a2b9102695cae0b5d288bdc57aaff3)
+        ;
+
+        
+    
+    
+            var circle_marker_0fc371ef59224a53468bfb2ac3fbe6cd = L.circleMarker(
+                [19.0418, 72.8653],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_d1666b1af0e5da32224eaa8e59cb3f23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e33ec499494c4ee0c405dac7e96b472 = $(`<div id="html_6e33ec499494c4ee0c405dac7e96b472" style="width: 100.0%; height: 100.0%;">BandraMPCB: AQI 107.79</div>`)[0];
+                popup_d1666b1af0e5da32224eaa8e59cb3f23.setContent(html_6e33ec499494c4ee0c405dac7e96b472);
+            
+        
+
+        circle_marker_0fc371ef59224a53468bfb2ac3fbe6cd.bindPopup(popup_d1666b1af0e5da32224eaa8e59cb3f23)
+        ;
+
+        
+    
+    
+            var circle_marker_e4395fc95242e6e689818fce072e0e7a = L.circleMarker(
+                [19.228825, 72.854118],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_3c83709f62fd851d14ceca8fd73ed625 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58c636ca953c2a5c280ba84e87319010 = $(`<div id="html_58c636ca953c2a5c280ba84e87319010" style="width: 100.0%; height: 100.0%;">BoriValiEastIITM: AQI 131.36</div>`)[0];
+                popup_3c83709f62fd851d14ceca8fd73ed625.setContent(html_58c636ca953c2a5c280ba84e87319010);
+            
+        
+
+        circle_marker_e4395fc95242e6e689818fce072e0e7a.bindPopup(popup_3c83709f62fd851d14ceca8fd73ed625)
+        ;
+
+        
+    
+    
+            var circle_marker_e8c265b38907f5d95e20f86a20028aea = L.circleMarker(
+                [19.2298, 72.8609],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a3ff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_664d18d9e1b9b8c498478b242427c641 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fde9e46a437252aace71e8c2cef6e6a0 = $(`<div id="html_fde9e46a437252aace71e8c2cef6e6a0" style="width: 100.0%; height: 100.0%;">BoriValiEastMPCB: AQI 89.77</div>`)[0];
+                popup_664d18d9e1b9b8c498478b242427c641.setContent(html_fde9e46a437252aace71e8c2cef6e6a0);
+            
+        
+
+        circle_marker_e8c265b38907f5d95e20f86a20028aea.bindPopup(popup_664d18d9e1b9b8c498478b242427c641)
+        ;
+
+        
+    
+    
+            var circle_marker_1798e76e2a42fa8c94f1d2b9236fb09c = L.circleMarker(
+                [19.1179, 72.8631],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_19fb8decf5736c7f988a57fc72cd8d63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_837555e79483a6516aeaa931ae30de69 = $(`<div id="html_837555e79483a6516aeaa931ae30de69" style="width: 100.0%; height: 100.0%;">AndheriEast: AQI 147.87</div>`)[0];
+                popup_19fb8decf5736c7f988a57fc72cd8d63.setContent(html_837555e79483a6516aeaa931ae30de69);
+            
+        
+
+        circle_marker_1798e76e2a42fa8c94f1d2b9236fb09c.bindPopup(popup_19fb8decf5736c7f988a57fc72cd8d63)
+        ;
+
+        
+    
+    
+            var circle_marker_d7bba2a594c7b5c590d9225db03a0610 = L.circleMarker(
+                [19.1071, 72.8368],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_be75c9763094e2ad9f170c103f4273ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59827308a1ddffa4c42ea37832ba3d84 = $(`<div id="html_59827308a1ddffa4c42ea37832ba3d84" style="width: 100.0%; height: 100.0%;">VileParleWestMumbai: AQI 168.78</div>`)[0];
+                popup_be75c9763094e2ad9f170c103f4273ee.setContent(html_59827308a1ddffa4c42ea37832ba3d84);
+            
+        
+
+        circle_marker_d7bba2a594c7b5c590d9225db03a0610.bindPopup(popup_be75c9763094e2ad9f170c103f4273ee)
+        ;
+
+        
+    
+    
+            var circle_marker_595b06c13a0a0b45ea238347d0450fac = L.circleMarker(
+                [19.366636, 72.816101],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_fda14f42acd81037d7997bcd8aa5d761 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_089a1f05bddce8cc49379551161682a9 = $(`<div id="html_089a1f05bddce8cc49379551161682a9" style="width: 100.0%; height: 100.0%;">VasaiWestMumbai: AQI 142.92</div>`)[0];
+                popup_fda14f42acd81037d7997bcd8aa5d761.setContent(html_089a1f05bddce8cc49379551161682a9);
+            
+        
+
+        circle_marker_595b06c13a0a0b45ea238347d0450fac.bindPopup(popup_fda14f42acd81037d7997bcd8aa5d761)
+        ;
+
+        
+    
+    
+            var circle_marker_7c66def33da0070082bc3b9822b45936 = L.circleMarker(
+                [19.039, 72.8619],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_9b93772d2fb2b9380784f9b8d5c03a61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b588fb13634671c77ed075f6af6f9b9e = $(`<div id="html_b588fb13634671c77ed075f6af6f9b9e" style="width: 100.0%; height: 100.0%;">SionMumbai: AQI 124.1</div>`)[0];
+                popup_9b93772d2fb2b9380784f9b8d5c03a61.setContent(html_b588fb13634671c77ed075f6af6f9b9e);
+            
+        
+
+        circle_marker_7c66def33da0070082bc3b9822b45936.bindPopup(popup_9b93772d2fb2b9380784f9b8d5c03a61)
+        ;
+
+        
+    
+    
+            var circle_marker_445ae3ba5b605ec5600281f4a0493046 = L.circleMarker(
+                [18.9978, 72.8139],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a3ff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_e31d7cbf32d084817d71b6a4d6701b8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4722962aba823846325d4ee40028756 = $(`<div id="html_a4722962aba823846325d4ee40028756" style="width: 100.0%; height: 100.0%;">SiddharthNagarWorli: AQI 87.56</div>`)[0];
+                popup_e31d7cbf32d084817d71b6a4d6701b8a.setContent(html_a4722962aba823846325d4ee40028756);
+            
+        
+
+        circle_marker_445ae3ba5b605ec5600281f4a0493046.bindPopup(popup_e31d7cbf32d084817d71b6a4d6701b8a)
+        ;
+
+        
+    
+    
+            var circle_marker_c84d81c6734e2488812b9d4fd321c980 = L.circleMarker(
+                [19.1176, 72.906],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_ed58a285b2c0837e37de20df8e6a87e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa8a14cc24dc661ca9008ecf8c658408 = $(`<div id="html_fa8a14cc24dc661ca9008ecf8c658408" style="width: 100.0%; height: 100.0%;">PowaiMumbai: AQI 106.85</div>`)[0];
+                popup_ed58a285b2c0837e37de20df8e6a87e6.setContent(html_fa8a14cc24dc661ca9008ecf8c658408);
+            
+        
+
+        circle_marker_c84d81c6734e2488812b9d4fd321c980.bindPopup(popup_ed58a285b2c0837e37de20df8e6a87e6)
+        ;
+
+        
+    
+    
+            var circle_marker_131a4aa4242807ea6818d236d6d2bfc5 = L.circleMarker(
+                [18.898, 72.8131],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_a49046a21b42e16b840993a42fac13ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7c882b6579a184c824c2862dd694372 = $(`<div id="html_b7c882b6579a184c824c2862dd694372" style="width: 100.0%; height: 100.0%;">NavyNagarColaba: AQI 106.7</div>`)[0];
+                popup_a49046a21b42e16b840993a42fac13ea.setContent(html_b7c882b6579a184c824c2862dd694372);
+            
+        
+
+        circle_marker_131a4aa4242807ea6818d236d6d2bfc5.bindPopup(popup_a49046a21b42e16b840993a42fac13ea)
+        ;
+
+        
+    
+    
+            var circle_marker_c1caedbe08e858ff5be7c9b016ee7a6e = L.circleMarker(
+                [19.1759, 72.9521],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_f2b1a8e51e3df18c2a4716d534a4e60d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15f7c57aec535a562daba5ac8fe99f0f = $(`<div id="html_15f7c57aec535a562daba5ac8fe99f0f" style="width: 100.0%; height: 100.0%;">MulundWestMumbai: AQI 119.68</div>`)[0];
+                popup_f2b1a8e51e3df18c2a4716d534a4e60d.setContent(html_15f7c57aec535a562daba5ac8fe99f0f);
+            
+        
+
+        circle_marker_c1caedbe08e858ff5be7c9b016ee7a6e.bindPopup(popup_f2b1a8e51e3df18c2a4716d534a4e60d)
+        ;
+
+        
+    
+    
+            var circle_marker_afdfe4882ad6510675ebbe8025dbadcb = L.circleMarker(
+                [18.9596, 72.8459],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9900", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_5f488738c34dc049fcb1536a432b86e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5875e0d217076ca79e63177fd43c04e7 = $(`<div id="html_5875e0d217076ca79e63177fd43c04e7" style="width: 100.0%; height: 100.0%;">MazgaonMumbai: AQI 215.41</div>`)[0];
+                popup_5f488738c34dc049fcb1536a432b86e7.setContent(html_5875e0d217076ca79e63177fd43c04e7);
+            
+        
+
+        circle_marker_afdfe4882ad6510675ebbe8025dbadcb.bindPopup(popup_5f488738c34dc049fcb1536a432b86e7)
+        ;
+
+        
+    
+    
+            var circle_marker_6af7fcb2c3e791a552f5e41694d9a713 = L.circleMarker(
+                [19.189, 72.8355],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_f2ca70d5f0e38425ad1f009902f2c6a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f2d2a9859b1abe105a7d977e760cdf0 = $(`<div id="html_5f2d2a9859b1abe105a7d977e760cdf0" style="width: 100.0%; height: 100.0%;">MaladWestMumbai: AQI 117.34</div>`)[0];
+                popup_f2ca70d5f0e38425ad1f009902f2c6a7.setContent(html_5f2d2a9859b1abe105a7d977e760cdf0);
+            
+        
+
+        circle_marker_6af7fcb2c3e791a552f5e41694d9a713.bindPopup(popup_f2ca70d5f0e38425ad1f009902f2c6a7)
+        ;
+
+        
+    
+    
+            var circle_marker_caa385fc29d81a723f0e4e67e5ec971e = L.circleMarker(
+                [19.0726, 72.8845],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_5f9ff09c804320b01e1578b2f7c0ab09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66b960a6cf98dc6e6c6e0f25a8c9c840 = $(`<div id="html_66b960a6cf98dc6e6c6e0f25a8c9c840" style="width: 100.0%; height: 100.0%;">KurlaMumbai: AQI 164.03</div>`)[0];
+                popup_5f9ff09c804320b01e1578b2f7c0ab09.setContent(html_66b960a6cf98dc6e6c6e0f25a8c9c840);
+            
+        
+
+        circle_marker_caa385fc29d81a723f0e4e67e5ec971e.bindPopup(popup_5f9ff09c804320b01e1578b2f7c0ab09)
+        ;
+
+        
+    
+    
+            var circle_marker_c1cb07db6f4692763e0f34a0f1647274 = L.circleMarker(
+                [19.1599, 72.9239],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_afa4b5509b2b2043951c57985581fdda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5b3fec06e574d4af73a139d50ca1eea = $(`<div id="html_a5b3fec06e574d4af73a139d50ca1eea" style="width: 100.0%; height: 100.0%;">KhindipadaBhandupWestMumbai: AQI 114.45</div>`)[0];
+                popup_afa4b5509b2b2043951c57985581fdda.setContent(html_a5b3fec06e574d4af73a139d50ca1eea);
+            
+        
+
+        circle_marker_c1cb07db6f4692763e0f34a0f1647274.bindPopup(popup_afa4b5509b2b2043951c57985581fdda)
+        ;
+
+        
+    
+    
+            var circle_marker_3efff1df91267bbd2b22eb866753919e = L.circleMarker(
+                [19.2005, 72.8737],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_6d8b06e7f715c65817b7b2e7ed4065b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_787493caf3c6abd949b085e8f38e0300 = $(`<div id="html_787493caf3c6abd949b085e8f38e0300" style="width: 100.0%; height: 100.0%;">KandivaliEastMumbai: AQI 142.67</div>`)[0];
+                popup_6d8b06e7f715c65817b7b2e7ed4065b8.setContent(html_787493caf3c6abd949b085e8f38e0300);
+            
+        
+
+        circle_marker_3efff1df91267bbd2b22eb866753919e.bindPopup(popup_6d8b06e7f715c65817b7b2e7ed4065b8)
+        ;
+
+        
+    
+    
+            var circle_marker_668c34e9ff6c2fd1aa28420524083384 = L.circleMarker(
+                [19.0447, 72.9103],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9900", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_fc1da1feb58b4e83b34c2efdfe5350b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb3de05f8b5aca51bd31715d3ff74164 = $(`<div id="html_eb3de05f8b5aca51bd31715d3ff74164" style="width: 100.0%; height: 100.0%;">DeonarMumbai: AQI 220.53</div>`)[0];
+                popup_fc1da1feb58b4e83b34c2efdfe5350b1.setContent(html_eb3de05f8b5aca51bd31715d3ff74164);
+            
+        
+
+        circle_marker_668c34e9ff6c2fd1aa28420524083384.bindPopup(popup_fc1da1feb58b4e83b34c2efdfe5350b1)
+        ;
+
+        
+    
+    
+            var circle_marker_a131f94a2a1631ef796b592c01fe8047 = L.circleMarker(
+                [18.9067, 72.8147],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_fa14c5327a3cf7a43777060fbd5ddc2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89e569e1304e1c116190eb5748eda168 = $(`<div id="html_89e569e1304e1c116190eb5748eda168" style="width: 100.0%; height: 100.0%;">ColabaMumbai: AQI 107.24</div>`)[0];
+                popup_fa14c5327a3cf7a43777060fbd5ddc2e.setContent(html_89e569e1304e1c116190eb5748eda168);
+            
+        
+
+        circle_marker_a131f94a2a1631ef796b592c01fe8047.bindPopup(popup_fa14c5327a3cf7a43777060fbd5ddc2e)
+        ;
+
+        
+    
+    
+            var circle_marker_5b02e968265fec6a988f1a99fcada998 = L.circleMarker(
+                [19.0902, 72.8628],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_34c9cd64831bd18ac1bfd285f9798c35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1248b8002d8cc43acd1361fa9b7dc7d2 = $(`<div id="html_1248b8002d8cc43acd1361fa9b7dc7d2" style="width: 100.0%; height: 100.0%;">ChhatrapatiShivajiIntlAirport: AQI 146.61</div>`)[0];
+                popup_34c9cd64831bd18ac1bfd285f9798c35.setContent(html_1248b8002d8cc43acd1361fa9b7dc7d2);
+            
+        
+
+        circle_marker_5b02e968265fec6a988f1a99fcada998.bindPopup(popup_34c9cd64831bd18ac1bfd285f9798c35)
+        ;
+
+        
+    
+    
+            var circle_marker_fdcedc09da68e4841e8d94da6b94577f = L.circleMarker(
+                [19.1098, 72.8583],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_145257fc527c6a94932187fe16d6ff7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f74f13f5c528fc26e73a6715c0001028 = $(`<div id="html_f74f13f5c528fc26e73a6715c0001028" style="width: 100.0%; height: 100.0%;">ChakalaAndheri: AQI 147.87</div>`)[0];
+                popup_145257fc527c6a94932187fe16d6ff7a.setContent(html_f74f13f5c528fc26e73a6715c0001028);
+            
+        
+
+        circle_marker_fdcedc09da68e4841e8d94da6b94577f.bindPopup(popup_145257fc527c6a94932187fe16d6ff7a)
+        ;
+
+        
+    
+    
+            var circle_marker_9b06199c81943e1afc669000ca76dab4 = L.circleMarker(
+                [18.9986, 72.8174],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+        var popup_60cac251b2a5d704ea6a3c3b69cbb444 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfa8eb3aca6b38d62e2c3f23fc4b41f1 = $(`<div id="html_dfa8eb3aca6b38d62e2c3f23fc4b41f1" style="width: 100.0%; height: 100.0%;">Worli: AQI 105.24</div>`)[0];
+                popup_60cac251b2a5d704ea6a3c3b69cbb444.setContent(html_dfa8eb3aca6b38d62e2c3f23fc4b41f1);
+            
+        
+
+        circle_marker_9b06199c81943e1afc669000ca76dab4.bindPopup(popup_60cac251b2a5d704ea6a3c3b69cbb444)
+        ;
+
+        
+    
+    
+            var poly_line_7379a00e2d3d03f78030b850feedbecb = L.polyline(
+                [[19.0418, 72.8653], [19.0688, 72.8703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+            poly_line_7379a00e2d3d03f78030b850feedbecb.bindTooltip(
+                `<div>
+                     Cyclist Route
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cc10301ca529959c5c42e85e8ffba35c = L.marker(
+                [19.0418, 72.8653],
+                {
+}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+            var icon_56357f599cb0f57c574adc2ac8650b72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f593c97c20ae6e00a20143d92641db0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f099d21d4b5f202a369ab0e83793812 = $(`<div id="html_0f099d21d4b5f202a369ab0e83793812" style="width: 100.0%; height: 100.0%;">Start: BandraMPCB</div>`)[0];
+                popup_6f593c97c20ae6e00a20143d92641db0.setContent(html_0f099d21d4b5f202a369ab0e83793812);
+            
+        
+
+        marker_cc10301ca529959c5c42e85e8ffba35c.bindPopup(popup_6f593c97c20ae6e00a20143d92641db0)
+        ;
+
+        
+    
+    
+                marker_cc10301ca529959c5c42e85e8ffba35c.setIcon(icon_56357f599cb0f57c574adc2ac8650b72);
+            
+    
+            var marker_5c95e2e361144363b85c4b2e7f9e70b0 = L.marker(
+                [19.0688, 72.8703],
+                {
+}
+            ).addTo(map_900559f0ca1655f12bc39dfb17a4b31f);
+        
+    
+            var icon_5249bf851dce1b761732f91cd613f1fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fc6b8c6bde9493d3b098ff2ca4b31ae6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d8dd2055e4f146673354094f36b1c20 = $(`<div id="html_2d8dd2055e4f146673354094f36b1c20" style="width: 100.0%; height: 100.0%;">Destination: BKC</div>`)[0];
+                popup_fc6b8c6bde9493d3b098ff2ca4b31ae6.setContent(html_2d8dd2055e4f146673354094f36b1c20);
+            
+        
+
+        marker_5c95e2e361144363b85c4b2e7f9e70b0.bindPopup(popup_fc6b8c6bde9493d3b098ff2ca4b31ae6)
+        ;
+
+        
+    
+    
+                marker_5c95e2e361144363b85c4b2e7f9e70b0.setIcon(icon_5249bf851dce1b761732f91cd613f1fb);
+            
+</script>
+</html>

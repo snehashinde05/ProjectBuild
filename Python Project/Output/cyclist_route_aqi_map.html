@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9d00e33c105e3cb9cb4b5b62ffee1e7f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9d00e33c105e3cb9cb4b5b62ffee1e7f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9d00e33c105e3cb9cb4b5b62ffee1e7f = L.map(
+                "map_9d00e33c105e3cb9cb4b5b62ffee1e7f",
+                {
+                    center: [19.076, 72.8777],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c80cf21b3ac7a9dc1a569e7868dfdc33 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9d00e33c105e3cb9cb4b5b62ffee1e7f);
+        
+    
+            var circle_marker_87d1264ff691db0194488bee82a431d2 = L.circleMarker(
+                [19.1179, 72.8631],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_9d00e33c105e3cb9cb4b5b62ffee1e7f);
+        
+    
+        var popup_7af3701e9df449cbbfa36317b9f98d46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1eff13826393365105102adc7000de9e = $(`<div id="html_1eff13826393365105102adc7000de9e" style="width: 100.0%; height: 100.0%;">AndheriEast: AQI 80</div>`)[0];
+            popup_7af3701e9df449cbbfa36317b9f98d46.setContent(html_1eff13826393365105102adc7000de9e);
+        
+
+        circle_marker_87d1264ff691db0194488bee82a431d2.bindPopup(popup_7af3701e9df449cbbfa36317b9f98d46)
+        ;
+
+        
+    
+    
+            var circle_marker_906c5cd82c5ed526ae9542d9ec133fa9 = L.circleMarker(
+                [19.0688, 72.8703],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7e00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_9d00e33c105e3cb9cb4b5b62ffee1e7f);
+        
+    
+        var popup_ba8be9afbde9163cf23094c9d1257a39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a2fd92fe94907446cba40309a7e602f = $(`<div id="html_4a2fd92fe94907446cba40309a7e602f" style="width: 100.0%; height: 100.0%;">BKC: AQI 120</div>`)[0];
+            popup_ba8be9afbde9163cf23094c9d1257a39.setContent(html_4a2fd92fe94907446cba40309a7e602f);
+        
+
+        circle_marker_906c5cd82c5ed526ae9542d9ec133fa9.bindPopup(popup_ba8be9afbde9163cf23094c9d1257a39)
+        ;
+
+        
+    
+    
+            var circle_marker_b3b11c8b4544cc0c80e55e400d09460a = L.circleMarker(
+                [19.0418, 72.8653],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_9d00e33c105e3cb9cb4b5b62ffee1e7f);
+        
+    
+        var popup_93f9d9a1565239edaac5092d5dd0becd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b92d4b1b67d2e2dd215882455451d0e9 = $(`<div id="html_b92d4b1b67d2e2dd215882455451d0e9" style="width: 100.0%; height: 100.0%;">BandraMPCB: AQI 90</div>`)[0];
+            popup_93f9d9a1565239edaac5092d5dd0becd.setContent(html_b92d4b1b67d2e2dd215882455451d0e9);
+        
+
+        circle_marker_b3b11c8b4544cc0c80e55e400d09460a.bindPopup(popup_93f9d9a1565239edaac5092d5dd0becd)
+        ;
+
+        
+    
+    
+            var circle_marker_63c9cb6e39a3e46b661bf6c5171f09bf = L.circleMarker(
+                [19.2298, 72.8609],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7e00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_9d00e33c105e3cb9cb4b5b62ffee1e7f);
+        
+    
+        var popup_7aa1246846a4aa458f5820ea2a41182e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1442e6d8d268cc3ea8986a758e811da = $(`<div id="html_e1442e6d8d268cc3ea8986a758e811da" style="width: 100.0%; height: 100.0%;">BoriValiEastMPCB: AQI 150</div>`)[0];
+            popup_7aa1246846a4aa458f5820ea2a41182e.setContent(html_e1442e6d8d268cc3ea8986a758e811da);
+        
+
+        circle_marker_63c9cb6e39a3e46b661bf6c5171f09bf.bindPopup(popup_7aa1246846a4aa458f5820ea2a41182e)
+        ;
+
+        
+    
+    
+            var circle_marker_a6ee9e7eab8e9f3d514f711921f91e14 = L.circleMarker(
+                [19.2288, 72.8541],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7e00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_9d00e33c105e3cb9cb4b5b62ffee1e7f);
+        
+    
+        var popup_79a68e53df820e783f5944cdf854d8a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eda026da5d6f18475088844a648d531b = $(`<div id="html_eda026da5d6f18475088844a648d531b" style="width: 100.0%; height: 100.0%;">BoriValiEastIITM: AQI 170</div>`)[0];
+            popup_79a68e53df820e783f5944cdf854d8a6.setContent(html_eda026da5d6f18475088844a648d531b);
+        
+
+        circle_marker_a6ee9e7eab8e9f3d514f711921f91e14.bindPopup(popup_79a68e53df820e783f5944cdf854d8a6)
+        ;
+
+        
+    
+    
+            var poly_line_38b50a03265b3bcc6cb386abbef80893 = L.polyline(
+                [[19.1179, 72.8631], [19.0688, 72.8703], [19.0418, 72.8653], [19.2298, 72.8609], [19.2288, 72.8541]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9d00e33c105e3cb9cb4b5b62ffee1e7f);
+        
+    
+            poly_line_38b50a03265b3bcc6cb386abbef80893.bindTooltip(
+                `<div>
+                     Cycling Route
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

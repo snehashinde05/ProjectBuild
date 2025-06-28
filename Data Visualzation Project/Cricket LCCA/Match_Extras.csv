@@ -1,0 +1,17 @@
+﻿Match ID,LCCA Side,Byes,LegByes,Wickets,Wides,No Balls,Penalty,Totals
+Match_01,Batting,0,0,10,21,1,0,32
+Match_01,Bowling,1,0,9,6,4,0,20
+Match_02,Batting,1,0,0,31,8,0,40
+Match_02,Bowling,0,1,0,10,0,0,11
+Match_03,Batting,13,2,0,23,4,0,42
+Match_03,Bowling,0,0,0,9,0,0,9
+Match_04,Batting,1,0,6,17,3,0,27
+Match_04,Bowling,0,0,7,15,1,0,23
+Match_05,Batting,2,0,1,44,5,0,52
+Match_05,Bowling,8,0,8,16,3,0,35
+Match_06,Batting,1,3,5,24,3,0,36
+Match_06,Bowling,0,0,4,12,3,0,19
+Match_07,Batting,14,2,8,15,2,0,41
+Match_07,Bowling,2,1,3,24,6,0,36
+Match_08,Batting,2,0,0,13,6,0,21
+Match_08,Bowling,0,0,0,19,3,0,22

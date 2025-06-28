@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Tracker LRU",
+  "version": "1.0",
+  "permissions": ["tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

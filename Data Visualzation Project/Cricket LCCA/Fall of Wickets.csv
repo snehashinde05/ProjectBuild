@@ -1,0 +1,111 @@
+Match_ID	LCCA Side	Player Name	Score	Overs
+Match_01	Batting	Rohan D	 1-35 	5.4
+Match_01	Batting	Matthew 	 2-90 	12.6
+Match_01	Batting	Guha A	 3-109 	14.4
+Match_01	Batting	Gautam M	 4-120 	16.6
+Match_01	Batting	Krishna 	 5-122 	17.4
+Match_01	Batting	Riswanth	 6-124 	19.3
+Match_01	Batting	Sanjith 	 7-127 	20.2
+Match_01	Batting	Rushil W	 8-127 	20.5
+Match_01	Batting	Vihaan C	 9-129 	22.2
+Match_01	Batting	Mehaan S	 10-129 	23.5
+Match_01	Bowling	Varun G	 1-31 	10.2
+Match_01	Bowling	Shourya 	 2-65 	15.6
+Match_01	Bowling	Shourya 	 3-65 	16.4
+Match_01	Bowling	Sriram D	 4-88 	20.5
+Match_01	Bowling	Anish A	 5-90 	22.4
+Match_01	Bowling	Arnav C	 6-94 	23.4
+Match_01	Bowling	Sarish B	 7-97 	24.4
+Match_01	Bowling	Momin S	 8-111 	27.3
+Match_01	Bowling	Ayaan S	 9-111 	27.4
+Match_02	Batting	Rohan D	 1-25 	3.5
+Match_02	Batting	Matthew 	 2-106 	18.3
+Match_02	Batting	Saanvi S	 3-126 	21.5
+Match_02	Batting	Guha A	 4-137 	22.5
+Match_02	Batting	Krishna 	 5-174 	28.2
+Match_02	Bowling	Yuvraj J	 1-25 	6.1
+Match_02	Bowling	kulraj B	 2-25 	6.2
+Match_02	Bowling	Jorawar 	 3-26 	7.5
+Match_02	Bowling	Farhan M	 4-28 	9.1
+Match_02	Bowling	Yuvraj H	 5-28 	9.6
+Match_02	Bowling	Aarav D	 6-30 	10.2
+Match_02	Bowling	Trishant	 7-34 	12.4
+Match_02	Bowling	Ashvanth	 8-41 	16.5
+Match_02	Bowling	Jaskaran	 9-41 	17.1
+Match_02	Bowling	Ansh S	 10-42 	18.4
+Match_03	Batting	Guha A	 1-13 	3.2
+Match_03	Batting	Matthew 	 2-78 	12.4
+Match_03	Batting	Rohan D	 3-122 	16.6
+Match_03	Batting	Saanvi S	 4-164 	20.6
+Match_03	Batting	Krishna 	 5-164 	21.1
+Match_03	Batting	Yuvan R	 6-191 	24.3
+Match_03	Batting	Gautam M	 7-196 	26.1
+Match_03	Batting	Riswanth	 8-203 	27.5
+Match_03	Bowling	Aniruddh	 1-1 	0.5
+Match_03	Bowling	Riaan K	 2-12 	5.1
+Match_03	Bowling	Raaghav 	 3-16 	5.5
+Match_03	Bowling	Vyom G	 4-32 	7.6
+Match_03	Bowling	SriRam G	 5-38 	9.1
+Match_03	Bowling	Aarush G	 6-45 	10.4
+Match_03	Bowling	Aadhira 	 7-50 	12.1
+Match_03	Bowling	Vihan N	 8-66 	15.5
+Match_03	Bowling	Eeshan P	 9-66 	16.1
+Match_04	Batting	Saanvi S	 1-33 	4.5
+Match_04	Batting	Matthew 	 2-177 	21.6
+Match_04	Batting	Guha A	 3-184 	22.6
+Match_04	Batting	Gautam M	 4-194 	26.2
+Match_04	Batting	Rohan D	 5-201 	28.2
+Match_04	Batting	Rushil W	 6-201 	28.4
+Match_04	Bowling	Taha H	 1-4 	3.1
+Match_04	Bowling	Ratan T	 2-40 	9.3
+Match_04	Bowling	Sriram D	 3-46 	11.5
+Match_04	Bowling	Arnav C	 4-57 	13.6
+Match_04	Bowling	Anish A	 5-59 	16.5
+Match_04	Bowling	Shourya 	 6-67 	19.6
+Match_04	Bowling	Ayaan S	 7-73 	21.2
+Match_05	Batting	Guha A	 1-106 	11.4
+Match_05	Bowling	Hargun M	 1-16 	1.5
+Match_05	Bowling	Hemanth 	 2-32 	5.2
+Match_05	Bowling	Hridhay 	 3-39 	6.4
+Match_05	Bowling	Myank N	 4-63 	9.4
+Match_05	Bowling	Shaunak 	 5-83 	12.3
+Match_05	Bowling	Srikar K	 6-143 	22.1
+Match_05	Bowling	Neil C	 7-180 	26.3
+Match_05	Bowling	Aishi G	 8-181 	26.5
+Match_06	Bowling	Farhan M	 1-8 	2.3
+Match_06	Bowling	Yuvraj H	 2-11 	2.5
+Match_06	Bowling	Aarav D	 3-104 	24.6
+Match_06	Bowling	Yuvraj J	 4-104 	25.1
+Match_06	Bowling	Jorawar 	 5-120 	28.4
+Match_06	Batting	Saanvi S	 1-2 	0.4
+Match_06	Batting	Matthew 	 2-59 	8.5
+Match_06	Batting	Riswanth	 3-72 	9.6
+Match_06	Batting	Krishna 	 4-116 	14.5
+Match_07	Batting	Krishna 	 1-6 	0.5
+Match_07	Batting	Saanvi S	 2-10 	1.4
+Match_07	Batting	Yuvan R	 3-29 	7.4
+Match_07	Batting	Riswanth	 4-45 	13.1
+Match_07	Batting	Muhammad	 5-83 	18.6
+Match_07	Batting	Wali K	 6-85 	19.4
+Match_07	Batting	Rayaan S	 7-88 	20.6
+Match_07	Batting	Vihaan C	 8-101 	23.4
+Match_07	Bowling	Raaghav 	 1-72 	11.5
+Match_07	Bowling	Aniruddh	 2-77 	13.1
+Match_07	Bowling	Aarush G	 3-77 	13.2
+Match_08	Bowling	Shourya 	 1-28 	6.4
+Match_08	Bowling	Ratan T	 2-29 	7.1
+Match_08	Bowling	Arnav C	 3-54 	10.1
+Match_08	Bowling	Varun G	 4-56 	11.1
+Match_08	Bowling	Shourya 	 5-60 	13.1
+Match_08	Bowling	Anish A	 6-151 	25.4
+Match_08	Bowling	Vishwana	 7-151 	25.5
+Match_08	Batting	Krishna 	 1-1 	0.3
+Match_08	Batting	Yuvan R	 2-28 	4.6
+Match_08	Batting	Mehaan S	 3-46 	7.4
+Match_08	Batting	Rohan D	 4-51 	9.1
+Match_08	Batting	Vibhav P	 5-61 	10.2
+Match_08	Batting	Riswanth	 6-62 	10.5
+Match_08	Batting	Nitya M	 7-63 	11.1
+Match_08	Batting	Akshara 	 8-78 	14.2
+Match_08	Batting	Zain H	 9-78 	15.4
+Match_08	Batting	Rayaan Q	 10-79 	15.5

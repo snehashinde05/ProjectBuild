@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c536b2c050425f76b63af717f1fab213 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c536b2c050425f76b63af717f1fab213" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c536b2c050425f76b63af717f1fab213 = L.map(
+                "map_c536b2c050425f76b63af717f1fab213",
+                {
+                    center: [19.076, 72.8777],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1f71b8cbf221c0adf3354c92ed40c352 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1f71b8cbf221c0adf3354c92ed40c352.addTo(map_c536b2c050425f76b63af717f1fab213);
+        
+    
+            var circle_marker_e67770226760634b2080c15088d99ab1 = L.circleMarker(
+                [19.1179, 72.8631],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c536b2c050425f76b63af717f1fab213);
+        
+    
+        var popup_7ff2e67d4dd0292f63eb2d6daeabceb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f98f263142b368da6b8f06f35d8cbf8 = $(`<div id="html_1f98f263142b368da6b8f06f35d8cbf8" style="width: 100.0%; height: 100.0%;">Andheri East: AQI 147.87</div>`)[0];
+                popup_7ff2e67d4dd0292f63eb2d6daeabceb9.setContent(html_1f98f263142b368da6b8f06f35d8cbf8);
+            
+        
+
+        circle_marker_e67770226760634b2080c15088d99ab1.bindPopup(popup_7ff2e67d4dd0292f63eb2d6daeabceb9)
+        ;
+
+        
+    
+    
+            var circle_marker_5b1eedba501980bc8ee036034326121c = L.circleMarker(
+                [19.0688, 72.8703],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9900", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c536b2c050425f76b63af717f1fab213);
+        
+    
+        var popup_c897c11fd3c979f7347f4907d0ca3904 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b373a074224f5d5d4111a2a61c1ba312 = $(`<div id="html_b373a074224f5d5d4111a2a61c1ba312" style="width: 100.0%; height: 100.0%;">BKC: AQI 221.52</div>`)[0];
+                popup_c897c11fd3c979f7347f4907d0ca3904.setContent(html_b373a074224f5d5d4111a2a61c1ba312);
+            
+        
+
+        circle_marker_5b1eedba501980bc8ee036034326121c.bindPopup(popup_c897c11fd3c979f7347f4907d0ca3904)
+        ;
+
+        
+    
+    
+            var circle_marker_ef709371d9943e693b8f35ba076b9838 = L.circleMarker(
+                [19.0418, 72.8653],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c536b2c050425f76b63af717f1fab213);
+        
+    
+        var popup_cf53139904a6236c6b7f553f5edb3841 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f4f77ad5a8125d5d5cc9afe04566528 = $(`<div id="html_5f4f77ad5a8125d5d5cc9afe04566528" style="width: 100.0%; height: 100.0%;">Bandra MPCB: AQI 107.79</div>`)[0];
+                popup_cf53139904a6236c6b7f553f5edb3841.setContent(html_5f4f77ad5a8125d5d5cc9afe04566528);
+            
+        
+
+        circle_marker_ef709371d9943e693b8f35ba076b9838.bindPopup(popup_cf53139904a6236c6b7f553f5edb3841)
+        ;
+
+        
+    
+    
+            var circle_marker_cd8d44547ffcbe9fd54e401af5a7632c = L.circleMarker(
+                [19.228825, 72.854118],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c536b2c050425f76b63af717f1fab213);
+        
+    
+        var popup_7ea497ce514eae48096dc1b9f1fe89f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_830f730655f047a4c59b8c354e6693db = $(`<div id="html_830f730655f047a4c59b8c354e6693db" style="width: 100.0%; height: 100.0%;">Borivali East IITM: AQI 131.36</div>`)[0];
+                popup_7ea497ce514eae48096dc1b9f1fe89f9.setContent(html_830f730655f047a4c59b8c354e6693db);
+            
+        
+
+        circle_marker_cd8d44547ffcbe9fd54e401af5a7632c.bindPopup(popup_7ea497ce514eae48096dc1b9f1fe89f9)
+        ;
+
+        
+    
+    
+            var circle_marker_d7e64fdfca67512986daf6032231feac = L.circleMarker(
+                [19.2298, 72.8609],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a3ff00", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c536b2c050425f76b63af717f1fab213);
+        
+    
+        var popup_e5f132871a84a999235e8b045d2c8cf8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea2a904804d19c96b9752c1dc0746df4 = $(`<div id="html_ea2a904804d19c96b9752c1dc0746df4" style="width: 100.0%; height: 100.0%;">Borivali East MPCB: AQI 89.77</div>`)[0];
+                popup_e5f132871a84a999235e8b045d2c8cf8.setContent(html_ea2a904804d19c96b9752c1dc0746df4);
+            
+        
+
+        circle_marker_d7e64fdfca67512986daf6032231feac.bindPopup(popup_e5f132871a84a999235e8b045d2c8cf8)
+        ;
+
+        
+    
+    
+            var poly_line_2b27c0d2636c362c20e09a2e36927cd8 = L.polyline(
+                [[19.1179, 72.8631], [19.0418, 72.8653]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_c536b2c050425f76b63af717f1fab213);
+        
+    
+            poly_line_2b27c0d2636c362c20e09a2e36927cd8.bindTooltip(
+                `<div>
+                     Cyclist Route
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_713067f3c48679c9533910e6fb852d2d = L.marker(
+                [19.1179, 72.8631],
+                {
+}
+            ).addTo(map_c536b2c050425f76b63af717f1fab213);
+        
+    
+            var icon_d6c6b181a4bcffc4366d6c5488416503 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5da70a1de85954406b680f359e3fe45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b45801c5c232ea3e5e26b4971ee5b97f = $(`<div id="html_b45801c5c232ea3e5e26b4971ee5b97f" style="width: 100.0%; height: 100.0%;">Start: Andheri East</div>`)[0];
+                popup_e5da70a1de85954406b680f359e3fe45.setContent(html_b45801c5c232ea3e5e26b4971ee5b97f);
+            
+        
+
+        marker_713067f3c48679c9533910e6fb852d2d.bindPopup(popup_e5da70a1de85954406b680f359e3fe45)
+        ;
+
+        
+    
+    
+                marker_713067f3c48679c9533910e6fb852d2d.setIcon(icon_d6c6b181a4bcffc4366d6c5488416503);
+            
+    
+            var marker_9721a764a729f2f961f6a67739b55a49 = L.marker(
+                [19.0418, 72.8653],
+                {
+}
+            ).addTo(map_c536b2c050425f76b63af717f1fab213);
+        
+    
+            var icon_f84661679aab2192b9f810d512de4698 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15b715e61a4d76695480dc00d7ff360f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_388a1a42391f7c8ed5834dac2a5773b4 = $(`<div id="html_388a1a42391f7c8ed5834dac2a5773b4" style="width: 100.0%; height: 100.0%;">Destination: Bandra MPCB</div>`)[0];
+                popup_15b715e61a4d76695480dc00d7ff360f.setContent(html_388a1a42391f7c8ed5834dac2a5773b4);
+            
+        
+
+        marker_9721a764a729f2f961f6a67739b55a49.bindPopup(popup_15b715e61a4d76695480dc00d7ff360f)
+        ;
+
+        
+    
+    
+                marker_9721a764a729f2f961f6a67739b55a49.setIcon(icon_f84661679aab2192b9f810d512de4698);
+            
+</script>
+</html>

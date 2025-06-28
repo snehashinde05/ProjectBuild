@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9305f2d710cc0200718a9be66c74fd53 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9305f2d710cc0200718a9be66c74fd53" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9305f2d710cc0200718a9be66c74fd53 = L.map(
+                "map_9305f2d710cc0200718a9be66c74fd53",
+                {
+                    center: [19.105, 72.854],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d791c7688922ad5be8ab99278459b15f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d791c7688922ad5be8ab99278459b15f.addTo(map_9305f2d710cc0200718a9be66c74fd53);
+        
+    
+            var marker_37104f3eabc2cd3cb25d5fe01486c6e1 = L.marker(
+                [19.105, 72.854],
+                {
+}
+            ).addTo(map_9305f2d710cc0200718a9be66c74fd53);
+        
+    
+            var icon_e6e4536246e48cde758aa26bcd911c41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_37104f3eabc2cd3cb25d5fe01486c6e1.bindTooltip(
+                `<div>
+                     You Are Here
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_37104f3eabc2cd3cb25d5fe01486c6e1.setIcon(icon_e6e4536246e48cde758aa26bcd911c41);
+            
+    
+            var marker_18342326369fb0b6ce037973877d48f7 = L.marker(
+                [19.0688, 72.8703],
+                {
+}
+            ).addTo(map_9305f2d710cc0200718a9be66c74fd53);
+        
+    
+            var icon_11a10827f51aae277442d1dd6616b989 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_18342326369fb0b6ce037973877d48f7.bindTooltip(
+                `<div>
+                     BKC: AQI 220.3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_18342326369fb0b6ce037973877d48f7.setIcon(icon_11a10827f51aae277442d1dd6616b989);
+            
+    
+            var marker_2033683516577d0125115a7feb4be402 = L.marker(
+                [19.1176, 72.906],
+                {
+}
+            ).addTo(map_9305f2d710cc0200718a9be66c74fd53);
+        
+    
+            var icon_f167776691c1457b661137a6e45d2307 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2033683516577d0125115a7feb4be402.bindTooltip(
+                `<div>
+                     Powai: AQI 109.7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2033683516577d0125115a7feb4be402.setIcon(icon_f167776691c1457b661137a6e45d2307);
+            
+    
+            var marker_98bdc68ba557be7fc256f85c1a74bceb = L.marker(
+                [19.039, 72.8619],
+                {
+}
+            ).addTo(map_9305f2d710cc0200718a9be66c74fd53);
+        
+    
+            var icon_5b07a3115d67ad26ba978eda89e80253 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_98bdc68ba557be7fc256f85c1a74bceb.bindTooltip(
+                `<div>
+                     Sion: AQI 124.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_98bdc68ba557be7fc256f85c1a74bceb.setIcon(icon_5b07a3115d67ad26ba978eda89e80253);
+            
+</script>
+</html>
